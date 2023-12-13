@@ -34,6 +34,8 @@ body {
   border-radius: 1rem;
   margin-bottom: 1rem;
   padding-top: 1.5rem;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 .boton {
@@ -58,6 +60,7 @@ body {
   grid-row: span 2;
   background-color: rgb(133, 82, 82);
 }
+
 #igual:hover {
   background-color: rgb(180, 56, 56);
 }
